@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+<welcome-file-list>
+	<welcome-file>login.jsp</welcome-file>
+</welcome-file-list>
+<servlet>
+<servlet-name>servletLogin</servlet-name>
+<servlet-class>project404.controller.servletLogin</servlet-class>
+</servlet>
+</web-app>

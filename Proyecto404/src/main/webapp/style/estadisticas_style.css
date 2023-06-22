@@ -1,0 +1,173 @@
+@keyframes luz {
+  0% {
+    box-shadow: inset rgb(145, 255, 86) 0 0 20px, rgb(145, 255, 86) 0 0 20px;
+  }
+
+  50% {
+    box-shadow: inset 0 0 0, 0 0 0;
+  }
+
+  100% {
+    box-shadow: inset rgb(145, 255, 86) 0 0 20px, rgb(168, 255, 86) 0 0 20px;
+  }
+}
+
+@font-face {
+  font-family: "Arcade";
+  src: url("fuentes/Arcade.ttf");
+}
+
+.carousel {
+  width: 98%;
+  margin: auto;
+}
+
+.carousel-item {
+  height: 30vh;
+  min-height: 350px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#barra {
+  background-color: rgb(32, 30, 34);
+  height: fit-content;
+}
+
+#logo_nombre {
+  font-family: 'Arcade';
+  margin-top: 10px;
+  font-size: 50px;
+  color: rgb(34, 192, 66);
+}
+
+.categorias>.bg-dark:hover {
+  background-color: rgb(35, 34, 34);
+  text-shadow: rgb(255, 7, 7) 1px 0 10px;
+  box-shadow: rgb(255, 7, 7) 1px 0 10px;
+  border-radius: 5px;
+  transform: scale(1.1);
+}
+
+.categorias>.bgclaro:hover {
+  background-color: rgb(35, 34, 34);
+  text-shadow: rgb(86, 184, 255) 1px 0 10px;
+  border-radius: 5px;
+  cursor: crosshair;
+  box-shadow: rgb(86, 184, 255) 1px 0 10px;
+  transform: scale(1.1);
+}
+
+ul {
+  align-items: baseline;
+}
+
+.dropdown-menu {
+  background-color: rgba(255, 255, 255, 0.5);
+  border-color: transparent;
+  position: absolute;
+  top: 60px;
+  right: 0;
+}
+
+body {
+  background-color: rgb(83, 74, 93);
+}
+
+.bgclaro {
+  background-color: rgb(101, 96, 106);
+}
+
+.buscar {
+  background-color: rgba(255, 255, 255, 0.5);
+  border-color: rgba(255, 255, 255, 0.5);
+}
+
+footer {
+  background-color: rgb(35, 34, 34);
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+
+#alien_logo {
+  animation-duration: 3s;
+  animation-name: luz;
+  animation-iteration-count: infinite;
+  border-radius: 100%;
+  padding: 10px;
+}
+
+#busqueda>input {
+  float: left;
+}
+
+#busqueda>a {
+  float: right;
+  width: fit-content;
+}
+
+#busqueda {
+  height: 4vh;
+}
+
+
+.marcador {            
+  border-bottom-style: solid;
+  width: 98%;
+  margin: auto;
+   font-family: 'ArcadeClassic', sans-serif;
+}
+
+.mini-caja {
+
+background-color: white;
+border-radius: 15px;
+display: flex;
+margin: 1%;
+padding: 2%;
+color: black;
+}
+.imagenes {
+  width: 100%;
+  height: 100%;
+  margin: auto;
+}
+.titulo_card {
+  text-align: center;
+  width: 98%;
+  margin: auto;
+  border-bottom-style: solid;
+  border-color: #534A5D;
+}
+.caja_juego {
+  border-style: none;
+  background-color:#A9A5AE;
+  color: black;
+  margin: 2%;
+    margin-top: 8%;
+    width: 95%;
+}
+
+.logo-container {
+  flex-shrink: 0;
+  margin-right: 20px;
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+  margin-top: 10%;
+}
+
+.text-container {
+  flex-grow: 1;
+
+}
+
+.paragraph {
+  margin-bottom: 10px;
+}

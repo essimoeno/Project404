@@ -1,0 +1,57 @@
+a{
+    text-decoration:none;
+    
+}
+
+.table{
+    width: 50%;
+    margin:auto;
+    border-radius:20px;	
+}
+.btn{
+    color:white;
+    
+}
+.btn>a{
+    color:white;
+}
+
+label{
+	color:white;
+}
+
+.card-header{
+	background-color: transparent;
+}
+
+.card{
+	background-color: transparent;
+}
+
+table{
+	border-radius:10px;
+}
+
+#accordion{
+	width:80%;
+	margin:auto;
+	border-radius:10px;
+	background: linear-gradient(to bottom, rgb(128, 128, 192), rgb(65, 190, 140));
+	
+}
+
+.jueguito,.form_perfil{
+	
+	background-color: transparent;
+}
+
+.input_cont{
+	border-radius: 5px;
+	margin: 1em;
+	border-color:pink;
+	
+}
+
+.adminjuegos{
+	margin-bottom: 200px;
+}
